@@ -1,9 +1,13 @@
+import GlobalStyles from "./assets/styles/GlobalStyles"
 
 function App() {
   return (
-    <div >
+    <>
+    <GlobalStyles/>
+    <main >
       <h1>Shopping</h1>
-    </div>
+    </main>
+  </>
   );
 }
 
