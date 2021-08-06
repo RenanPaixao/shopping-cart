@@ -10,19 +10,19 @@ export const Container = styled.nav`
   background-color: var(--white);
 
   @media(min-width: 576px){
-  padding: .3rem 1rem .3rem 1.7rem;
+  padding: .3rem 1rem .5rem 3rem;
 
   }
   @media(min-width: 720px){
-  padding: .3rem 1rem .3rem 2rem;
+  padding: .3rem 1rem .5rem 4rem;
 
   }
   @media(min-width: 960px){
-  padding: .3rem 1rem .3rem 2.5rem;
+  padding: .3rem 1rem .5rem 5rem;
   
   }
   @media(min-width: 1200px){
-    padding: .3rem 1rem .3rem 5rem;
+    padding: .5rem 1rem .5rem 6rem;
   }
 `;
 
@@ -45,7 +45,7 @@ export const Logo = styled.img`
     height: 75px;
   }
   @media(min-width: 1200px){
-    width: 90px;
-    height: 80px;
+    width: 80px;
+    height: 70px;
   }
 `;

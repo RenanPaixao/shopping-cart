@@ -5,7 +5,7 @@ interface IProps{
   children?: JSX.Element[] | string 
 }
 
-function Navbar({src,children}:IProps) {
+function Navbar({src,children}:IProps):JSX.Element {
   return (
     <Container>
       <Logo src={src} />

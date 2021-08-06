@@ -1,13 +1,14 @@
 import GlobalStyles from "./assets/styles/GlobalStyles"
 import Navbar from "./components/Navbar/index";
+import Image from './assets/images/logo.png'
 
 
 
-function App() {
+function App(){
   return (
     <>
     <GlobalStyles/>
-    <Navbar src="https://upload.wikimedia.org/wikipedia/en/2/29/Quasar_Logo.png"/>
+    <Navbar src={Image}/>
     <main >
       <h1>Shopping</h1>
     </main>
