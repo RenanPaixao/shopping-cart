@@ -5,6 +5,32 @@ const GlobalStyles = createGlobalStyle`
 v2.0 | 20110126
 License: none (public domain)
 */
+:root{
+  --white: #ffffff;
+  --black: #000000;
+  
+  --gray-background: #c3c3c3;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  background-color: var(--gray-background);
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
