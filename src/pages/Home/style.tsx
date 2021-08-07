@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
-
+export const Container = styled.main`
+`
 export const WrapperProducts = styled.section`
-width: 90%;
+width: 70%;
 
 display: grid;
+grid-template-columns: repeat(auto-fill, 158px);
+gap: 80px;
+justify-content: center;
 padding: 1rem 0.5rem;
-
-grid-template-columns: repeat(3,min-content);
-gap: 10px;
-
-
 margin: 0 auto;
+
 background-color: var(--blue);
+border-radius: 5px;
 `

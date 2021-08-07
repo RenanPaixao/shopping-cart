@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 6rem;
-  height: 8rem;
+  width: 10rem;
+  height: 12rem;
+
 
 
   background-color: var(--white);
@@ -20,7 +21,7 @@ export const WrapperContent = styled.div`
 
 
   img{
-    width: 70px;
+    width: 7rem;
     border-radius: 5px;
   }
   
@@ -30,7 +31,7 @@ export const BottomInfo = styled.p`
   inline-size: 100%;
   font-size: 0.7rem;
 
-  padding: 0 0.5rem;
+  padding: 0 1.5rem;
   margin-bottom: -0.5rem;
 
   display: flex;
