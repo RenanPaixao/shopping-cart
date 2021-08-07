@@ -8,14 +8,15 @@ License: none (public domain)
 :root{
   --white: #ffffff;
   --black: #000000;
-  
-  --gray-background: #c3c3c3;
+  --gray: #e5e5e5;
+  --yellow: #fca311;
+  --blue: #14213d;
 }
 
 #root{
   width: 100%;
   height: 100%;
-  background-color: var(--gray-background);
+  background-color: var(--gray);
 }
 body{
   width: 100vw;
