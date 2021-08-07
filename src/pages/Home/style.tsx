@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Container = styled.main`
+export const WrapperSearch = styled.div`
+  width: min-content;
+
+  padding: 2rem 0;
+  margin: 0 12.5rem 0 auto;
 `
 export const WrapperProducts = styled.section`
 width: 70%;
