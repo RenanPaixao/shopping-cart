@@ -29,7 +29,6 @@ export const WrapperContent = styled.div`
 
 export const BottomInfo = styled.p`
   inline-size: 100%;
-  font-size: 0.7rem;
 
   padding: 0 1.5rem;
   margin-bottom: -0.5rem;
