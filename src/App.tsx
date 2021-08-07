@@ -1,7 +1,8 @@
 import GlobalStyles from "./assets/styles/GlobalStyles"
+
 import Navbar from "./components/Navbar/index";
 import Image from './assets/images/logo.png'
-
+import Home from './pages/Home/index'
 
 
 function App(){
@@ -9,9 +10,7 @@ function App(){
     <>
     <GlobalStyles/>
     <Navbar src={Image}/>
-    <main >
-      <h1>Shopping</h1>
-    </main>
+    <Home/>
   </>
   );
 }
